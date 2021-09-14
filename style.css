@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Poppins;
+    src: url(cv_starter/fonts/poppins.ttf);
+}
+@font-face {
+    font-family: Poppins_Medium;
+    src: url(cv_starter/fonts/Poppins-Medium.ttf);
+}
+
+html {
+    font-family: Poppins;
+}
+h1, h2, h3, h4 {
+    font-family: Poppins_Medium;
+}
+
+header {
+    background: #0475ba;
+    color: #ecf3f8;
+    display: flex;
+    height: 72px;
+}
+
+div { 
+    padding: 40px;
+}
+nav {
+    display: flex;
+    margin: auto 40px;
+}
+h2 {
+    margin:  auto 15px;
+    font-size: 25px;
+    float: left;
+}
+nav > a {
+    padding-right: 20px;
+    padding-left: 10px;
+    color: #ecf3f8;
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around right;
+}
+
+.qui {
+    background-color: #ecf3f8;
+    display: flex;
+    justify-content: center;
+}
