@@ -45,8 +45,35 @@ footer {
     justify-content: space-around right;
 }
 
+h1 {
+    font-size:xx-large;
+    margin: 30px;
+}
+#h1 {
+    font-size: x-large;
+    color: #0475ba;
+    margin: 30px;
+}
+
 .qui {
     background-color: #ecf3f8;
     display: flex;
-    justify-content: center;
+
+}
+.img-profile {
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    object-fit: cover;
+    margin: auto;
+    margin-left: 50px;
+}
+.nom-pro {
+    padding-left: 400px;
+}
+
+.presentation {
+    background: #0475ba;
+    color: #ecf3f8;
+
 }
