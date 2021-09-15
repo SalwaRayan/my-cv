@@ -132,28 +132,23 @@ h4 {
 
 #form {
     font-size: x-large;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    width: 650px;
-    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
-.form {
+.form-back {
+    display: flex;
     color: #ecf3f8;
     background-color: #0475ba;
 }
-.formation {
-    width: 650px;
+.form {
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 30px; 
+    width: 650px;
+    padding-bottom: 40px;
 }
 .info {
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
-}
-.info {
-    padding: 10px 0;
 }
 
 .passions {
@@ -163,6 +158,7 @@ h4 {
 }
 .loisirs {
     background-color: #ecf3f8;
+    display: flex;
 }
 .lois {
     width: 650px;
@@ -173,6 +169,8 @@ h4 {
 .hobby {
     padding-top: 10px;
     padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 footer {
     color: #ecf3f8;
@@ -200,7 +198,29 @@ footer > a {
 }
 
 @media (max-width: 768px) {
-    html{
-        width:100%;
+    h3 {
+        text-align: center;
+    }
+    nav {
+        display: none;
+    }
+    
+    .nom-img {
+        margin: auto;
+        width: 700px;
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+    }
+    footer {
+        display: block;
+    }
+    .lien {
+        margin: initial;
+        margin-top: 20px;
+    }
+    .pres, .exp, .form, .lois {
+        margin-right: 10px;
+        margin-left: 10px;
     }
 }
