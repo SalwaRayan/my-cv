@@ -9,6 +9,11 @@
 
 html {
     font-family: Poppins;
+    background: red no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 h1, h2, h3, h4 {
     font-family: Poppins_Medium;
@@ -55,74 +60,100 @@ h1 {
 .qui {
     background-color: #ecf3f8;
     display: flex;
-    padding: 40px;
 }
 .img-profile {
     width: 160px;
     height: 160px;
     border-radius: 100px;
     object-fit: cover;
-    margin: auto;
-    margin-left: 50px;
     box-shadow: 0 0 5px grey;
+    margin: 0 80px;
+}
+.nom-img {
+    margin: auto;
+    width: 700px;
+    display: flex;
+    padding: 40px 0;
 }
 .nom-pro {
-    padding-left: 400px;
+    padding: 20px 0;
 }
 
 .presentation {
     background: #0475ba;
     color: #ecf3f8;
+    display: flex;
+}
+.pres {
+    width: 650px;
+    justify-content: center;
+    margin: auto;
 }
 #profil {
     font-size: x-large;
-    padding: 40px 400px; 
+    margin-top: 40px ;
 }
 ul {
     list-style-position: inside;
-    padding-bottom: 40px;
-    margin-left: 430px;
+    padding: 40px 20px;
 }
 li {
     list-style: initial;
     padding: 5px;
 }
 
+.experience {
+    display: flex;
+    background: #ecf3f8;
+}
 #exp {
     color: #0475ba;
     font-size: x-large;
-    padding-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 .exp {
-    padding: 40px 400px;
-    background-color: #ecf3f8;
+    margin: auto;
+    width: 650px;
+    padding-bottom: 40px;
+}
+.nom-exp {
+    display: flex;
+    justify-content: space-between;
 }
 h4 {
-    display: inline-flex;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px; 
     font-size: 18px;
 }
-.date { 
-    float:right;
-}
-.task{
-    padding-top: 10px;
-    padding-bottom: 15px;
+.exp > p {
+    padding: 10px 0;
 }
 
 #form {
     font-size: x-large;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 650px;
+    margin: auto;
 }
 .form {
     color: #ecf3f8;
-    padding: 40px 400px;
     background-color: #0475ba;
 }
-.diplome {
+.formation {
+    width: 650px;
+    margin: auto;
     padding-top: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 30px; 
+}
+.info {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.info {
+    padding: 10px 0;
 }
 
 .passions {
@@ -131,8 +162,13 @@ h4 {
     color: #0475ba;
 }
 .loisirs {
-    padding: 40px 400px;
     background-color: #ecf3f8;
+}
+.lois {
+    width: 650px;
+    margin: auto;
+    padding: 40px 0;
+    
 }
 .hobby {
     padding-top: 10px;
@@ -143,9 +179,21 @@ footer {
     padding: 40px;
     background-color: #0475ba;
 }
+
+.lien {
+    width: 100px;
+    justify-content: center;
+    margin: 0 300px;
+}
 a {
     color:#ecf3f8;
 }
-.social {
-    padding-left: 400px;
+.fab {
+    padding: 0 5px;
+}
+
+@media (max-width: 768px) {
+    html{
+        width:100%;
+    }
 }
