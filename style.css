@@ -189,7 +189,14 @@ a {
     color:#ecf3f8;
 }
 .fab {
-    padding: 0 5px;
+    padding: 5px;
+}
+footer > a {
+    padding: 5px;
+}
+.blog {
+    display: block;
+    padding: 5px 0;
 }
 
 @media (max-width: 768px) {
